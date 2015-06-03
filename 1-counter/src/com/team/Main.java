@@ -8,7 +8,6 @@ public class Main {
     public static void main(String[] args) {
      Scanner st = new Scanner(System.in);
      String a= "";
-        String b="sdkjhgak";
         int stroks=0;
         int symbs=0;
         int words=0;
