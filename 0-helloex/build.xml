@@ -1,0 +1,19 @@
+<project> 	
+
+
+<javac destdir="build" includeantruntime="true">
+	<src path="src"/> 
+</javac>
+
+		<jar destfile = "build/jar/HelloWorld.jar"
+		   basedir = "build/"
+		   includes = "/com/team/"
+		   excludes = "/com/team/Hello.class">
+		   
+			<manifest>
+			<attribute name = "Main-Class" value = "com.team.Hello"/>
+			</manifest>
+   
+		</jar>
+
+</project>

@@ -1,6 +1,6 @@
-package team;
+package com.team;
 
-class Printer{
+public class Printer{
 	public static void print(String fpr){
 	System.out.println(fpr);
 	} 
