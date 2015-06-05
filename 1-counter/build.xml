@@ -1,0 +1,19 @@
+<project> 	
+
+
+<javac destdir="build" includeantruntime="true">
+	<src path="src"/> 
+</javac>
+
+		<jar destfile = "build/jar/counter.jar"
+		   basedir = "build/"
+		   includes = "/com/team/"
+		   excludes = "/com/team/Main.class">
+		   
+			<manifest>
+			<attribute name = "Main-Class" value = "com.team.Main"/>
+			</manifest>
+   
+		</jar>
+
+</project>
