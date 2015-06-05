@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="4">
+
+    <Button
+            android:textColor="#33FF33"
+            android:id="@+id/oneButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_row="0" android:layout_column="0"/>
+    <Button
+            android:textColor="#33FF33"
+            android:id="@+id/twoButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_row="0" android:layout_column="1"/>
+    <Button
+            android:textColor="#33FF33"
+            android:id="@+id/threeButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_row="0" android:layout_column="2"/>
+    <Button
+            android:textColor="#33FF33"
+            android:id="@+id/fourButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_row="0" android:layout_column="3"/>
+    <Button
+            android:textColor="#33FF33"
+            android:id="@+id/fiveButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_row="1" android:layout_column="0"/>
+    <Button
+            android:textColor="#33FF33"
+            android:id="@+id/sixButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_row="1" android:layout_column="1"/>
+    <Button
+            android:textColor="#33FF33"
+            android:id="@+id/sevenButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_row="1" android:layout_column="2"/>
+    <Button
+            android:textColor="#33FF33"
+            android:id="@+id/eightButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_row="1" android:layout_column="3"/>
+    <Button
+            android:textColor="#33FF33"
+            android:id="@+id/nineButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_row="2" android:layout_column="0"/>
+    <Button
+            android:textColor="#33FF33"
+            android:id="@+id/tenButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_row="2" android:layout_column="1"/>
+    <Button
+            android:textColor="#33FF33"
+            android:id="@+id/elevenButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_row="2" android:layout_column="2"/>
+    <Button
+            android:textColor="#33FF33"
+            android:id="@+id/twelweButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_row="2" android:layout_column="3"/>
+    <Button
+            android:textColor="#33FF33"
+            android:id="@+id/thirteenButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_row="3" android:layout_column="0"/>
+    <Button
+            android:textColor="#33FF33"
+            android:id="@+id/fourteenButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_row="3" android:layout_column="1"/>
+    <Button
+            android:textColor="#33FF33"
+            android:id="@+id/fifteenButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_row="3" android:layout_column="2"/>
+    <Button
+            android:textColor="#33FF33"
+            android:id="@+id/sixteenButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_row="3" android:layout_column="3"/>
+
+    <TextView
+
+            android:id="@+id/message"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="26sp"
+            android:layout_row="4" android:layout_column="0"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Refresh"
+                android:id="@+id/refresh" android:layout_row="6" android:layout_column="3"/>
+</GridLayout>
